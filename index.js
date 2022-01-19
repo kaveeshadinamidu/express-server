@@ -3,8 +3,8 @@ const bodyParser = require('body-parser');
 const app = express();
 const router = express.Router();
 
-router.use(bodyParser.json());
-router.use(bodyParser.urlencoded({extended : true}));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended : true}));
 
 const userContoller = require('./Controllers/UserController');
 
