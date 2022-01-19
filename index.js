@@ -6,7 +6,7 @@ const router = express.Router();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended : true}));
 
-const userContoller = require('./Controllers/UserController');
+const userContoller = require('./controllers/UserController');
 
 app.use('/user',userContoller);
 
