@@ -6,4 +6,11 @@ router.post('/signin',(req,res)=>{
     res.send('Recieved!');
 });
 
+router.post('/signup', (req, res)=> {
+    console.log(req.body);
+    res.send('Okay');
+});
+
+
+
 module.exports = router;
