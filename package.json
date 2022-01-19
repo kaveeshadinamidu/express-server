@@ -1,0 +1,19 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "Express server with ejs and sqlite database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaveeshadinamidu/express-server.git"
+  },
+  "author": "Kaveesha Dinamidu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaveeshadinamidu/express-server/issues"
+  },
+  "homepage": "https://github.com/kaveeshadinamidu/express-server#readme"
+}
