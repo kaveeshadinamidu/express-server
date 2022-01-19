@@ -7,8 +7,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended : true}));
 
 const userContoller = require('./controllers/UserController');
+const requestController = require('./controllers/RequestController');
 
 app.use('/user',userContoller);
+app.use('/request',requestController);
 
 app.get('/',(req,res)=>{
     res.send('Hello World!');
